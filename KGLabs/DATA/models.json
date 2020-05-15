@@ -1,0 +1,1716 @@
+{
+  "Models": {
+    "Model": [
+      {
+        "-id": "road_cor_1",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/road_corner_1.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_cor_2",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/road_corner_2.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_int_1",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/road_intersection_1.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_int_2",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/road_intersection_2.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_ln_1",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/road_lane_1.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_ln_2",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/road_lane_2.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_ln_3",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/road_lane_3.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_ln_4",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/road_lane_4.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_ln_bs",
+        "-type": "road",
+        "dimensions": { "-value": "14.174 0.104 20.998" },
+        "Mesh": { "-path": "data/meshes/roads/road_lane_bus_stop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_lh",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 5.250" },
+        "Mesh": { "-path": "data/meshes/roads/road_lane_half.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "road_sh",
+        "-type": "road",
+        "dimensions": { "-value": "0.188 0.104 2.100" },
+        "Mesh": { "-path": "data/meshes/roads/road_split_line.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "tile",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.000 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/tile.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "tile_int_1",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/tile_intersection_1.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "tile_int_2",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.104 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/tile_intersection_2.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "tile_lt",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.000 10.498" },
+        "Mesh": { "-path": "data/meshes/roads/tile_light.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/roads/road.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "natures_gr",
+        "-type": "road",
+        "dimensions": { "-value": "10.498 0.000 10.498" },
+        "Mesh": { "-path": "data/meshes/natures/natures_grass_tile.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "grass_ts",
+        "-type": "road",
+        "dimensions": { "-value": "5.250 0.000 5.250" },
+        "Mesh": { "-path": "data/meshes/natures/grass_tile_small.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_fl",
+        "-type": "road",
+        "dimensions": { "-value": "1.574 0.104 5.250" },
+        "Mesh": { "-path": "data/meshes/natures/house_floor.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "a_service",
+        "-type": "building",
+        "dimensions": { "-value": "9.592 3.674 4.338" },
+        "Mesh": { "-path": "data/meshes/buildings/auto_service.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/auto_service.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bakery",
+        "-type": "building",
+        "dimensions": { "-value": "7.134 4.452 5.918" },
+        "Mesh": { "-path": "data/meshes/buildings/bakery.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/bakery.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bar",
+        "-type": "building",
+        "dimensions": { "-value": "3.862 5.466 3.888" },
+        "Mesh": { "-path": "data/meshes/buildings/bar.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/bar.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "books_sh",
+        "-type": "building",
+        "dimensions": { "-value": "6.326 4.388 6.318" },
+        "Mesh": { "-path": "data/meshes/buildings/books_shop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/books_shop.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "chicken_sh",
+        "-type": "building",
+        "dimensions": { "-value": "5.890 5.122 5.250" },
+        "Mesh": { "-path": "data/meshes/buildings/chicken_shop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/chicken_shop.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "clothing_sh",
+        "-type": "building",
+        "dimensions": { "-value": "6.366 6.092 6.382" },
+        "Mesh": { "-path": "data/meshes/buildings/clothing_shop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/clothing_shop.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "coffee",
+        "-type": "building",
+        "dimensions": { "-value": "10.170 3.676 6.540" },
+        "Mesh": { "-path": "data/meshes/buildings/coffee.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/coffee.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "drug_st",
+        "-type": "building",
+        "dimensions": { "-value": "5.890 3.412 5.550" },
+        "Mesh": { "-path": "data/meshes/buildings/drug_store.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/drug_store.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "factory",
+        "-type": "building",
+        "dimensions": { "-value": "8.610 9.958 14.436" },
+        "Mesh": { "-path": "data/meshes/buildings/factory.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/factory.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "fast_food",
+        "-type": "building",
+        "dimensions": { "-value": "5.890 5.122 5.434" },
+        "Mesh": { "-path": "data/meshes/buildings/fast_food.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/fast_food.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "fruits_sh",
+        "-type": "building",
+        "dimensions": { "-value": "6.366 6.092 6.382" },
+        "Mesh": { "-path": "data/meshes/buildings/fruits_shop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/fruits_shop.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "gas_st",
+        "-type": "building",
+        "dimensions": { "-value": "6.824 4.196 13.440" },
+        "Mesh": { "-path": "data/meshes/buildings/gas_station.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/gas_station.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "gift_sh",
+        "-type": "building",
+        "dimensions": { "-value": "5.890 3.412 5.550" },
+        "Mesh": { "-path": "data/meshes/buildings/gift_shop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/gift_shop.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_1_bl",
+        "-type": "building",
+        "dimensions": { "-value": "9.392 4.752 6.616" },
+        "Mesh": { "-path": "data/meshes/buildings/house_1.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_1_blue.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_1_or",
+        "-type": "building",
+        "dimensions": { "-value": "9.392 4.752 6.616" },
+        "Mesh": { "-path": "data/meshes/buildings/house_1.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_1_orange.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_1_rd",
+        "-type": "building",
+        "dimensions": { "-value": "9.392 4.752 6.616" },
+        "Mesh": { "-path": "data/meshes/buildings/house_1.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_1_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_2_gr",
+        "-type": "building",
+        "dimensions": { "-value": "9.230 4.748 6.828" },
+        "Mesh": { "-path": "data/meshes/buildings/house_2.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_2_green.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_2_or",
+        "-type": "building",
+        "dimensions": { "-value": "9.230 4.748 6.828" },
+        "Mesh": { "-path": "data/meshes/buildings/house_2.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_2_orange.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_2_rd",
+        "-type": "building",
+        "dimensions": { "-value": "9.230 4.748 6.828" },
+        "Mesh": { "-path": "data/meshes/buildings/house_2.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_2_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_3_gr",
+        "-type": "building",
+        "dimensions": { "-value": "9.058 5.046 7.564" },
+        "Mesh": { "-path": "data/meshes/buildings/house_3.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_3_green.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_3_or",
+        "-type": "building",
+        "dimensions": { "-value": "9.058 5.046 7.564" },
+        "Mesh": { "-path": "data/meshes/buildings/house_3.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_3_orange.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_3_rd",
+        "-type": "building",
+        "dimensions": { "-value": "9.058 5.046 7.564" },
+        "Mesh": { "-path": "data/meshes/buildings/house_3.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_3_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_4_bl",
+        "-type": "building",
+        "dimensions": { "-value": "13.004 4.132 8.044" },
+        "Mesh": { "-path": "data/meshes/buildings/house_4.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_4_blue.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_4_gr",
+        "-type": "building",
+        "dimensions": { "-value": "13.004 4.132 8.044" },
+        "Mesh": { "-path": "data/meshes/buildings/house_4.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_4_green.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "house_4_rd",
+        "-type": "building",
+        "dimensions": { "-value": "13.004 4.132 8.044" },
+        "Mesh": { "-path": "data/meshes/buildings/house_4.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/house_4_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "music_st",
+        "-type": "building",
+        "dimensions": { "-value": "5.890 5.122 5.434" },
+        "Mesh": { "-path": "data/meshes/buildings/music_store.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/music_store.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "pizza",
+        "-type": "building",
+        "dimensions": { "-value": "7.858 4.092 7.122" },
+        "Mesh": { "-path": "data/meshes/buildings/pizza.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/pizza.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "resid_hs_gr",
+        "-type": "building",
+        "dimensions": { "-value": "8.520 10.100 6.648" },
+        "Mesh": { "-path": "data/meshes/buildings/residential_house.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/residential_house_green.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "resid_hs_or",
+        "-type": "building",
+        "dimensions": { "-value": "8.520 10.100 6.648" },
+        "Mesh": { "-path": "data/meshes/buildings/residential_house.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/residential_house_orange.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "resid_hs_rd",
+        "-type": "building",
+        "dimensions": { "-value": "8.520 10.100 6.648" },
+        "Mesh": { "-path": "data/meshes/buildings/residential_house.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/residential_house_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "rest",
+        "-type": "building",
+        "dimensions": { "-value": "3.862 5.466 3.888" },
+        "Mesh": { "-path": "data/meshes/buildings/restaurant.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/restaurant.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "shoes_sh",
+        "-type": "building",
+        "dimensions": { "-value": "6.320 4.388 6.318" },
+        "Mesh": { "-path": "data/meshes/buildings/shoes_shop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/shoes_shop.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "sky_b_bl",
+        "-type": "building",
+        "dimensions": { "-value": "7.170 13.020 6.454" },
+        "Mesh": { "-path": "data/meshes/buildings/skyscraper_big.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/skyscraper_big_blue.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "sky_b_gr",
+        "-type": "building",
+        "dimensions": { "-value": "7.170 13.020 6.454" },
+        "Mesh": { "-path": "data/meshes/buildings/skyscraper_big.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/skyscraper_big_green.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "sky_b_rd",
+        "-type": "building",
+        "dimensions": { "-value": "7.170 13.020 6.454" },
+        "Mesh": { "-path": "data/meshes/buildings/skyscraper_big.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/skyscraper_big_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "sky_s_gr",
+        "-type": "building",
+        "dimensions": { "-value": "6.824 8.886 6.858" },
+        "Mesh": { "-path": "data/meshes/buildings/skyscraper_small.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/skyscraper_small_green.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "sky_s_or",
+        "-type": "building",
+        "dimensions": { "-value": "6.824 8.886 6.858" },
+        "Mesh": { "-path": "data/meshes/buildings/skyscraper_small.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/skyscraper_small_orange.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "sky_s_rd",
+        "-type": "building",
+        "dimensions": { "-value": "6.824 8.886 6.858" },
+        "Mesh": { "-path": "data/meshes/buildings/skyscraper_small.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/skyscraper_small_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "stad",
+        "-type": "building",
+        "dimensions": { "-value": "18.614 6.158 23.494" },
+        "Mesh": { "-path": "data/meshes/buildings/stadium.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/stadium.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "super_m",
+        "-type": "building",
+        "dimensions": { "-value": "12.468 3.978 6.956" },
+        "Mesh": { "-path": "data/meshes/buildings/super_market.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/super_market.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "ambul",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.574 1.548 1.540" },
+        "Mesh": { "-path": "data/meshes/vehicles/ambulance.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/ambulance.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bus_bl",
+        "-type": "vehicle",
+        "dimensions": { "-value": "4.884 1.878 1.940" },
+        "Mesh": { "-path": "data/meshes/vehicles/bus.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/bus_blue.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bus_grn",
+        "-type": "vehicle",
+        "dimensions": { "-value": "4.884 1.878 1.940" },
+        "Mesh": { "-path": "data/meshes/vehicles/bus.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/bus_green.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bus_rd",
+        "-type": "vehicle",
+        "dimensions": { "-value": "4.884 1.878 1.940" },
+        "Mesh": { "-path": "data/meshes/vehicles/bus.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/bus_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "car_bl",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.318 1.152 1.552" },
+        "Mesh": { "-path": "data/meshes/vehicles/car.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/car_blue.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "car_gry",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.318 1.152 1.552" },
+        "Mesh": { "-path": "data/meshes/vehicles/car.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/car_gray.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "car_wh",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.318 1.152 1.552" },
+        "Mesh": { "-path": "data/meshes/vehicles/car.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/car_white.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "cont_bl",
+        "-type": "vehicle",
+        "dimensions": { "-value": "4.770 2.184 1.904" },
+        "Mesh": { "-path": "data/meshes/vehicles/container.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/container_blue.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "cont_grn",
+        "-type": "vehicle",
+        "dimensions": { "-value": "4.770 2.184 1.904" },
+        "Mesh": { "-path": "data/meshes/vehicles/container.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/container_green.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "cont_rd",
+        "-type": "vehicle",
+        "dimensions": { "-value": "4.770 2.184 1.904" },
+        "Mesh": { "-path": "data/meshes/vehicles/container.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/container_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "jeep_br",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.010 1.194 1.628" },
+        "Mesh": { "-path": "data/meshes/vehicles/jeep.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/jeep_brown.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "jeep_grn",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.010 1.194 1.628" },
+        "Mesh": { "-path": "data/meshes/vehicles/jeep.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/jeep_green.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "jeep_pu",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.010 1.194 1.628" },
+        "Mesh": { "-path": "data/meshes/vehicles/jeep.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/jeep_purple.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "pu_truck_bl",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.132 1.194 1.628" },
+        "Mesh": { "-path": "data/meshes/vehicles/pick_up_truck.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/pick_up_truck_blue.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "pu_truck_gry",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.132 1.194 1.628" },
+        "Mesh": { "-path": "data/meshes/vehicles/pick_up_truck.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/pick_up_truck_gray.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "pu_truck_rd",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.132 1.194 1.628" },
+        "Mesh": { "-path": "data/meshes/vehicles/pick_up_truck.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/pick_up_truck_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "police",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.318 1.216 1.552" },
+        "Mesh": { "-path": "data/meshes/vehicles/police_car.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/police_car.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "taxi",
+        "-type": "vehicle",
+        "dimensions": { "-value": "3.318 1.278 1.552" },
+        "Mesh": { "-path": "data/meshes/vehicles/taxi.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/taxi.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "truck_gry",
+        "-type": "vehicle",
+        "dimensions": { "-value": "4.776 1.782 1.904" },
+        "Mesh": { "-path": "data/meshes/vehicles/truck.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/truck_gray.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "truck_rd",
+        "-type": "vehicle",
+        "dimensions": { "-value": "4.776 1.782 1.904" },
+        "Mesh": { "-path": "data/meshes/vehicles/truck.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/truck_red.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "truck_ye",
+        "-type": "vehicle",
+        "dimensions": { "-value": "4.776 1.782 1.904" },
+        "Mesh": { "-path": "data/meshes/vehicles/truck.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/vehicles/truck_yellow.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "big_tree",
+        "-type": "big nature",
+        "dimensions": { "-value": "2.600 3.212 2.704" },
+        "Mesh": { "-path": "data/meshes/natures/big_tree.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "cube_tree",
+        "-type": "big nature",
+        "dimensions": { "-value": "1.782 2.114 1.676" },
+        "Mesh": { "-path": "data/meshes/natures/cube_tree.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "fir_tree",
+        "-type": "big nature",
+        "dimensions": { "-value": "1.780 3.858 2.056" },
+        "Mesh": { "-path": "data/meshes/natures/fir_tree.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bush_1",
+        "-type": "small nature",
+        "dimensions": { "-value": "0.690 1.612 0.678" },
+        "Mesh": { "-path": "data/meshes/natures/bush_1.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bush_2",
+        "-type": "small nature",
+        "dimensions": { "-value": "1.522 0.526 1.314" },
+        "Mesh": { "-path": "data/meshes/natures/bush_2.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bush_3",
+        "-type": "small nature",
+        "dimensions": { "-value": "0.712 0.246 0.614" },
+        "Mesh": { "-path": "data/meshes/natures/bush_3.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "grass_bar",
+        "-type": "small nature",
+        "dimensions": { "-value": "0.524 0.420 3.674" },
+        "Mesh": { "-path": "data/meshes/natures/grass_bar.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.55 0.55 0.55",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.15 0.15 0.15",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "grass_fc",
+        "-type": "small nature",
+        "dimensions": { "-value": "0.524 0.630 3.674" },
+        "Mesh": { "-path": "data/meshes/natures/grass_fence.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.60 0.60 0.60",
+            "-ambient": "0.25 0.25 0.25",
+            "-specular": "0.10 0.10 0.10",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "pot_bu_b",
+        "-type": "small nature",
+        "dimensions": { "-value": "0.382 0.692 0.382" },
+        "Mesh": { "-path": "data/meshes/natures/pot_bush_big.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "pot_bu_s",
+        "-type": "small nature",
+        "dimensions": { "-value": "0.382 0.488 0.382" },
+        "Mesh": { "-path": "data/meshes/natures/pot_bush_small.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "rock_bg",
+        "-type": "small nature",
+        "dimensions": { "-value": "1.522 0.526 1.314" },
+        "Mesh": { "-path": "data/meshes/natures/rock_big.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "rock_sm",
+        "-type": "small nature",
+        "dimensions": { "-value": "0.712 0.246 0.614" },
+        "Mesh": { "-path": "data/meshes/natures/rock_small.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/natures/nature.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "antenna",
+        "-type": "big prop",
+        "dimensions": { "-value": "0.748 4.256 0.748" },
+        "Mesh": { "-path": "data/meshes/props/roof_antenna.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/roof_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "light",
+        "-type": "big prop",
+        "dimensions": { "-value": "1.328 3.374 0.314" },
+        "Mesh": { "-path": "data/meshes/props/street_light.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/traffic_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "windmill",
+        "-type": "big prop",
+        "dimensions": { "-value": "3.340 7.136 1.190" },
+        "Mesh": { "-path": "data/meshes/props/windmill.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/traffic_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "signal_b",
+        "-type": "big prop",
+        "dimensions": { "-value": "1.442 3.160 0.314" },
+        "Mesh": { "-path": "data/meshes/props/traffic_signal_big.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/traffic_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "signal_s",
+        "-type": "big prop",
+        "dimensions": { "-value": "0.290 2.954 0.314" },
+        "Mesh": { "-path": "data/meshes/props/traffic_signal_small.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/traffic_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "billbrd_l",
+        "-type": "medium prop",
+        "dimensions": { "-value": "4.538 2.708 0.832" },
+        "Mesh": { "-path": "data/meshes/props/billboard_large.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/billboard_large.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "billbrd_m",
+        "-type": "medium prop",
+        "dimensions": { "-value": "1.610 2.824 0.694" },
+        "Mesh": { "-path": "data/meshes/props/billboard_medium.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/billboard_medium.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bus_stop",
+        "-type": "medium prop",
+        "dimensions": { "-value": "3.150 2.612 2.100" },
+        "Mesh": { "-path": "data/meshes/props/bus_stop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "helipad",
+        "-type": "medium prop",
+        "dimensions": { "-value": "4.020 0.354 4.082" },
+        "Mesh": { "-path": "data/meshes/props/roof_helipad.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/roof_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "billbrd_s",
+        "-type": "small prop",
+        "dimensions": { "-value": "0.848 1.378 0.154" },
+        "Mesh": { "-path": "data/meshes/props/billboard_small.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/billboard_small.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bench_1",
+        "-type": "small prop",
+        "dimensions": { "-value": "2.100 0.486 0.588" },
+        "Mesh": { "-path": "data/meshes/props/bench_1.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "bench_2",
+        "-type": "small prop",
+        "dimensions": { "-value": "2.100 0.934 0.736" },
+        "Mesh": { "-path": "data/meshes/props/bench_2.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "coffee_chair",
+        "-type": "small prop",
+        "dimensions": { "-value": "1.392 1.434 1.464" },
+        "Mesh": { "-path": "data/meshes/props/coffee_chair.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/buildings/coffee.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "dustbin",
+        "-type": "small prop",
+        "dimensions": { "-value": "0.490 0.584 0.490" },
+        "Mesh": { "-path": "data/meshes/props/dustbin.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "fence",
+        "-type": "small prop",
+        "dimensions": { "-value": "0.944 1.164 0.084" },
+        "Mesh": { "-path": "data/meshes/props/fence.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "hydrant",
+        "-type": "small prop",
+        "dimensions": { "-value": "0.228 0.536 0.228" },
+        "Mesh": { "-path": "data/meshes/props/hydrant.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "roof_pr",
+        "-type": "small prop",
+        "dimensions": { "-value": "1.612 0.536 1.418" },
+        "Mesh": { "-path": "data/meshes/props/roof_prop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/roof_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "roof_pr_a",
+        "-type": "small prop",
+        "dimensions": { "-value": "1.482 0.606 0.742" },
+        "Mesh": { "-path": "data/meshes/props/roof_prop_air.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/roof_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "solar_pan",
+        "-type": "small prop",
+        "dimensions": { "-value": "1.714 0.330 1.072" },
+        "Mesh": { "-path": "data/meshes/props/roof_solar_panel.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/roof_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "traf_cone",
+        "-type": "small prop",
+        "dimensions": { "-value": "0.412 0.484 0.434" },
+        "Mesh": { "-path": "data/meshes/props/traffic_cone.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/traffic_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "ctrl_barr_fence",
+        "-type": "small prop",
+        "dimensions": { "-value": "1.890 1.074 0.104" },
+        "Mesh": { "-path": "data/meshes/props/traffic_control_barrier_fence.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/traffic_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "speed_lim",
+        "-type": "small prop",
+        "dimensions": { "-value": "0.360 1.242 0.036" },
+        "Mesh": { "-path": "data/meshes/props/traffic_sign_speed_limit.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/traffic_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      },
+      {
+        "-id": "sign_stop",
+        "-type": "small prop",
+        "dimensions": { "-value": "0.380 1.276 0.038" },
+        "Mesh": { "-path": "data/meshes/props/traffic_sign_stop.obj" },
+        "Material": {
+          "Texture": { "-path": "data/textures/props/traffic_props.png" },
+          "PhongParameters": {
+            "-diffuse": "0.85 0.85 0.85",
+            "-ambient": "0.35 0.35 0.35",
+            "-specular": "0.25 0.25 0.25",
+            "-shininess": "64.0"
+          }
+        }
+      }
+    ]
+  }
+}

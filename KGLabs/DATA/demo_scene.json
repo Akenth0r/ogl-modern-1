@@ -1,0 +1,481 @@
+{
+  "scene": {
+    "GraphicObject": [
+      {
+        "Model": { "-id": "super_m" },
+        "Position": { "-value": "-1.500 1.989 -0.390" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "sky_s_or" },
+        "Position": { "-value": "6.880 4.443 -7.600" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "sky_s_rd" },
+        "Position": { "-value": "-6.560 4.443 -7.500" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "solar_pan" },
+        "Position": { "-value": "-4.760 8.861 -5.610" },
+        "Rotation": { "-value": "135.000" }
+      },
+      {
+        "Model": { "-id": "solar_pan" },
+        "Position": { "-value": "-5.060 8.861 -7.400" },
+        "Rotation": { "-value": "135.000" }
+      },
+      {
+        "Model": { "-id": "solar_pan" },
+        "Position": { "-value": "-6.560 8.861 -5.900" },
+        "Rotation": { "-value": "135.000" }
+      },
+      {
+        "Model": { "-id": "fast_food" },
+        "Position": { "-value": "0.150 2.561 -6.900" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "dustbin" },
+        "Position": { "-value": "-8.330 0.292 0.860" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "dustbin" },
+        "Position": { "-value": "-2.440 0.292 -9.500" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "bench_1" },
+        "Position": { "-value": "1.030 0.243 -9.860" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "bus_stop" },
+        "Position": { "-value": "-9.340 1.306 -1.200" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "bench_1" },
+        "Position": { "-value": "-9.180 0.243 -1.190" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-10.330 0.052 9.400" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-9.190 0.052 10.350" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-10.330 0.052 7.300" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-9.190 0.052 8.350" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-10.330 0.052 5.200" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-10.320 0.052 3.100" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-9.190 0.052 6.250" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-9.190 0.052 4.120" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-9.190 0.052 2.140" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "car_wh" },
+        "Position": { "-value": "-8.470 0.576 9.300" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "car_gry" },
+        "Position": { "-value": "-8.480 0.576 7.320" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "bar" },
+        "Position": { "-value": "8.400 2.733 -1.900" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "roof_pr_a" },
+        "Position": { "-value": "9.300 5.626 -2.200" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "house_fl" },
+        "Position": { "-value": "5.470 0.052 2.621" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "house_fl" },
+        "Position": { "-value": "5.470 0.052 7.870" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "-7.090 0.052 10.350" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "3.640 0.052 10.350" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "3.640 0.052 8.350" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "3.640 0.052 6.250" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "3.640 0.052 4.120" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "jeep_pu" },
+        "Position": { "-value": "2.900 0.597 7.320" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "car_bl" },
+        "Position": { "-value": "2.900 0.576 5.180" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "car_bl" },
+        "Position": { "-value": "2.900 0.576 3.140" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "7.300 0.052 10.350" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "7.300 0.052 8.310" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "7.300 0.052 6.250" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "7.300 0.052 4.120" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "traf_cone" },
+        "Position": { "-value": "8.110 0.242 9.330" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "car_bl" },
+        "Position": { "-value": "8.110 0.576 7.320" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "taxi" },
+        "Position": { "-value": "8.110 0.639 5.180" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "jeep_grn" },
+        "Position": { "-value": "8.110 0.597 3.140" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "billbrd_s" },
+        "Position": { "-value": "9.950 0.689 10.320" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "house_fl" },
+        "Position": { "-value": "7.870 0.052 0.790" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "road_sh" },
+        "Position": { "-value": "1.550 0.052 10.350" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "pot_bu_b" },
+        "Position": { "-value": "5.400 0.346 -1.000" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "tile" },
+        "Position": { "-value": "-5.249 0.000 -5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "tile" },
+        "Position": { "-value": "-5.249 0.000 5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "tile" },
+        "Position": { "-value": "5.249 0.000 -5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "tile" },
+        "Position": { "-value": "5.249 0.000 5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-19.248 1.740 -15.748" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-15.748 1.740 -19.248" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "signal_b" },
+        "Position": { "-value": "-10.499 1.633 -19.198" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "signal_b" },
+        "Position": { "-value": "-12.298 1.633 -10.499" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "road_cor_1" },
+        "Position": { "-value": "-15.748 0.000 -15.748" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "19.248 1.740 -15.748" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "15.748 1.740 -19.248" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "signal_b" },
+        "Position": { "-value": "10.499 1.633 -12.298" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "signal_b" },
+        "Position": { "-value": "19.198 1.633 -10.499" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "road_cor_1" },
+        "Position": { "-value": "15.748 0.000 -15.748" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_ln_1" },
+        "Position": { "-value": "-5.249 0.000 -15.748" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-5.249 1.740 -19.248" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-5.249 1.740 -12.248" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_ln_1" },
+        "Position": { "-value": "5.249 0.000 -15.748" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "5.249 1.740 -19.248" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "5.249 1.740 -12.248" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-19.248 1.740 15.748" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-15.748 1.740 19.248" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "signal_b" },
+        "Position": { "-value": "-10.499 1.633 12.298" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "signal_b" },
+        "Position": { "-value": "-19.198 1.633 10.499" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "road_cor_1" },
+        "Position": { "-value": "-15.748 0.000 15.748" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "road_ln_1" },
+        "Position": { "-value": "-15.748 0.000 -5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-19.248 1.740 -5.249" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-12.248 1.740 -5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "road_ln_1" },
+        "Position": { "-value": "-15.748 0.000 5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-19.248 1.740 5.249" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-12.248 1.740 5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "19.248 1.740 15.748" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "15.748 1.740 19.248" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "signal_s" },
+        "Position": { "-value": "10.499 1.530 19.748" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "signal_s" },
+        "Position": { "-value": "11.748 1.530 10.499" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "road_cor_1" },
+        "Position": { "-value": "15.748 0.000 15.748" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "road_ln_1" },
+        "Position": { "-value": "-5.249 0.000 15.748" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-5.249 1.740 12.248" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "-5.249 1.740 19.248" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_ln_1" },
+        "Position": { "-value": "5.249 0.000 15.748" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "5.249 1.740 12.248" },
+        "Rotation": { "-value": "-90.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "5.249 1.740 19.248" },
+        "Rotation": { "-value": "90.000" }
+      },
+      {
+        "Model": { "-id": "road_ln_1" },
+        "Position": { "-value": "15.748 0.000 -5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "12.248 1.740 -5.249" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "19.248 1.740 -5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "road_ln_1" },
+        "Position": { "-value": "15.748 0.000 5.249" },
+        "Rotation": { "-value": "-0.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "12.248 1.740 5.249" },
+        "Rotation": { "-value": "180.000" }
+      },
+      {
+        "Model": { "-id": "light" },
+        "Position": { "-value": "19.248 1.740 5.249" },
+        "Rotation": { "-value": "-0.000" }
+      }
+    ]
+  }
+}
