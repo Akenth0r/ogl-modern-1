@@ -9,7 +9,6 @@ void RenderManager::init()
 	ShaderManager& shM = ShaderManager::getInstance();
 	shM.AddShader(&shaders[0]);
 	glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
-	
 }
 
 void RenderManager::prepare()
@@ -57,6 +56,8 @@ void RenderManager::render()
 	// Shaders
 	shaders[0].activate();
 	shaders[0].setUniform("projection", camera->getProjectionMatrix());
+	shaders[0].setUniform("view", view);
+	shaders[0].setUniform("eye_pos", eye_pos);
 	if (fog)
 	{
 		shaders[0].setUniform("fogColor", fog->getColor());
@@ -85,9 +86,8 @@ void RenderManager::render()
 	std::vector<glm::mat4> models;
 	
 	int instCount = 0;
-	shaders[0].setUniform("view", view);
-	shaders[0].setUniform("eye_pos", eye_pos);
 	int maxInd = graphicObjects.size() - 1;
+	int matPrev = -1;
 	for (int i = 0; i < graphicObjects.size(); i++)
 	{
 		int meshCur = graphicObjects[i]->getMeshId();
@@ -98,8 +98,8 @@ void RenderManager::render()
 		models.push_back(model);
 		instCount++;
 		
-		Material* material = rm.getMaterial(matCur);
-		if (material && models.size() == 1)
+		Material* material = rm.getMaterial(matNext);
+		if (material && matCur != matPrev)
 		{
 			materialChangeCount++;
 			shaders[0].setUniform("tex0", 0);
@@ -125,8 +125,7 @@ void RenderManager::render()
 			models.clear();
 			instCount = 0;
 		}
+		matPrev = matCur;
 	}
 	fps++;
-	//system("pause");
-
 }

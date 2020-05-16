@@ -54,5 +54,4 @@ private:
 	// Mesh id's for preventing multiple loadings of a one mesh
 	std::map<std::string, unsigned int> mesh_ids;
 	std::map<std::string, unsigned int> tex_ids;
-
 };
