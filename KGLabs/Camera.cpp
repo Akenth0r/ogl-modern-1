@@ -22,6 +22,10 @@ Camera::Camera(float x, float y, float z)
 {
 	this->eyePos = vec3(x, y, z);
 	this->lookAtPoint = vec3(0);
+	right = vec3(1, 0, 0);
+	up = vec3(0, 1, 0);
+	forward = vec3(0, 0, -1);
+
 	calcSpherical();
 }
 
@@ -56,8 +60,9 @@ void Camera::move(float dx, float dz)
 {
 	vec3 lookEye = lookAtPoint - eyePos;
 	lookEye.y = 0;
-	vec3 forward = normalize(lookEye);
-	vec3 right = cross(vec3(0, 1, 0), forward);
+	forward = normalize(lookEye);
+	right = cross(vec3(0, 1, 0), forward);
+	up = cross(right, forward);
 	vec3 dpos = forward * dx + right * dz;
 	this->eyePos += dpos;
 	this->lookAtPoint += dpos;
@@ -89,7 +94,7 @@ mat4& Camera::getViewMatrix()
 
 void Camera::setProjectionMatrix(float fovy, float aspect, float zNear, float zFar)
 {
-	this->projection = glm::perspective(fovy, aspect, zNear, zFar);
+	this->projection = glm::perspective(radians(fovy), aspect, zNear, zFar);
 }
 
 glm::mat4& Camera::getProjectionMatrix()

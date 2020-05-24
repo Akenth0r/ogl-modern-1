@@ -119,7 +119,13 @@ void Shader::setUniform(const std::string& name, const glm::mat4x2& value)
 void Shader::setUniform(const std::string& name, const glm::vec2& value)
 {
 	uniforms[name] = getUniformLocation(name);
-	glUniformMatrix2fv(uniforms[name], 1, GL_FALSE, value_ptr(value)); // Error may be here
+	glUniform2fv(uniforms[name], 1, value_ptr(value)); // Error may be here
+}
+
+void Shader::setUniform(const std::string& name, const glm::vec3& value)
+{
+	uniforms[name] = getUniformLocation(name);
+	glUniform3fv(uniforms[name], 1, value_ptr(value)); // Error may be here
 }
 
 void Shader::setUniform(const std::string& name, std::vector<glm::mat4>& value)

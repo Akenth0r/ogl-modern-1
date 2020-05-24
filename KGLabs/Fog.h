@@ -3,20 +3,24 @@
 class Fog
 {
 public:
-	Fog() : height(2.0), density(0.2), color(glm::vec4(1.0)) {}
+	Fog() : farDist(200.0), nearDist(10.0), density(0.2), color(glm::vec3(1.0)) {}
+	Fog(float farDist, float nearDist, float density, glm::vec3 color) : farDist(farDist), nearDist(nearDist), density(density), color(color) {}
 
 	// Setters
-	void setHeight(float height);
+	void setFar(float farDist);
+	void setNear(float nearDist);
 	void setDensity(float density);
-	void setColor(const glm::vec4& color);
+	void setColor(const glm::vec3& color);
 
 	// Getetrs
-	float getHeight();
+	float getFar();
+	float getNear();
 	float getDensity();
-	glm::vec4 getColor();
+	glm::vec3 getColor();
 private:
-	float height;
+	float farDist;
+	float nearDist;
 	float density;
-	glm::vec4 color;
+	glm::vec3 color;
 };
 

@@ -60,9 +60,10 @@ void RenderManager::render()
 	shaders[0].setUniform("eye_pos", eye_pos);
 	if (fog)
 	{
-		shaders[0].setUniform("fogColor", fog->getColor());
-		shaders[0].setUniform("fogDensity", fog->getDensity());
-		shaders[0].setUniform("fogHeight", fog->getHeight());
+		shaders[0].setUniform("fog_color", fog->getColor());
+		shaders[0].setUniform("fog_density", fog->getDensity());
+		shaders[0].setUniform("fog_near", fog->getNear());
+		shaders[0].setUniform("fog_far", fog->getFar());
 	}
 	// Lighting
 	shaders[0].setUniform("lAmbient", light->getAmbient());
@@ -98,7 +99,7 @@ void RenderManager::render()
 		models.push_back(model);
 		instCount++;
 		
-		Material* material = rm.getMaterial(matNext);
+		Material* material = rm.getMaterial(matCur);
 		if (material && matCur != matPrev)
 		{
 			materialChangeCount++;

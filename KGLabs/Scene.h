@@ -16,6 +16,7 @@
 #include <map>
 #include <sstream>
 #include "GLM/glm.hpp"
+#include "Quadtree.h"
 
 class Scene
 {
@@ -26,6 +27,8 @@ public:
 	void init(std::string filepath);
 	// Load scene from json (here we're loading scene.json)
 	bool loadJSON(std::string filepath);
+	// Init qtree
+	void initQtree(Boundary boundary);
 
 	// Scene simulation (if necessary)
 	void simulate(float sec);
@@ -51,6 +54,7 @@ private:
 	// Check if object is needed to draw
 	// LOD algorithm is here
 	bool isFar(GraphicObject& gObj);
+	bool isGraphicObjectInFrustum(GraphicObject& gObj, glm::mat4& MVP);
 
 
 private:
@@ -64,4 +68,6 @@ private:
 	rapidjson::Document modelsDescription;
 	// Filename
 	std::string sceneFilename;
+	// Quadtree
+	Quadtree qtree;
 };

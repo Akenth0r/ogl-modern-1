@@ -31,6 +31,11 @@ public:
 	void setProjectionMatrix(float fovy, float aspect, float zNear, float zFar);
 	glm::mat4& getProjectionMatrix();
 
+	// Get vectors
+	glm::vec3 getForwardVector() { return forward; }
+	glm::vec3 getRightVector() { return right; }
+	glm::vec3 getUpVector() { return up; }
+
 	// Default destructor
 	~Camera() = default;
 
@@ -38,6 +43,9 @@ private:
 	// Fields
 	glm::vec3 eyePos;	    // x y z
 	glm::vec3 spherical;	// r phi theta
+	glm::vec3 forward;
+	glm::vec3 right;
+	glm::vec3 up;
 	glm::vec3 lookAtPoint;  // pivot point
 	glm::mat4 view;			// view matrix
 	glm::mat4 projection;	// projection matrix

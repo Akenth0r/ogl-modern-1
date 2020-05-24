@@ -2,11 +2,6 @@
 
 out vec4 FragColor;
 
-uniform vec4 fogColor; 
-uniform float fogHeight;
-uniform float fogDensity;
-
-
 uniform vec4 lDirection;
 uniform vec4 lAmbient;
 uniform vec4 lDiffuse;
@@ -28,12 +23,18 @@ in vec3 position_eyeCoord;
 in vec3 position_global;
 in vec2 fTexCoord;
 // Fog density
+uniform vec3 fog_color; 
+uniform float fog_density;
+uniform float fog_near;
+uniform float fog_far;
 
-vec3 apply_fog(vec3 col, vec3 camToPoint, float distance)
+
+vec3 apply_fog(vec3 col, float distance)
 {
-    float factor = clamp(1.0, 0.0, (1 - exp(-distance * (fogHeight + camToPoint.y - 2.0) * fogDensity)));
-
-    return mix(col, vec3(fogColor), factor);
+    float factor = (distance - fog_near)/(fog_far - fog_near);
+    if (distance >= fog_far) factor = 1;
+    if (distance <= fog_near) factor = 0;
+    return mix(col, fog_color, factor);
 }
 
 void main (void)
@@ -48,10 +49,10 @@ void main (void)
     vec4 specular = mSpecular * lSpecular * pow(max(dot(n_ToEye, n_Reflect), 0.0), mShininess);
     vec3 final_color = vec3(texture(tex0, fTexCoord)) * vec3(ambient + diffuse + specular);
     
-    vec3 eyeToPosGlobal =  position_eyeCoord - position_global;
+    vec3 eyeToPosGlobal =  eye_pos - position_eyeCoord;
     float distance = length(eyeToPosGlobal);
     
     
-    FragColor = vec4(final_color, 1.0);//vec4(apply_fog(final_color, eyeToPosGlobal, distance), mDiffuse.a); 
+    FragColor = vec4(apply_fog(final_color, distance), mDiffuse.a); 
 }
 

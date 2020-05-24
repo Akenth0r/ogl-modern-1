@@ -1,8 +1,13 @@
 #include "Fog.h"
 
-void Fog::setHeight(float height)
+void Fog::setFar(float farDist)
 {
-	this->height = height;
+	this->farDist = farDist;
+}
+
+void Fog::setNear(float nearDist)
+{
+	this->nearDist = nearDist;
 }
 
 void Fog::setDensity(float density)
@@ -10,14 +15,19 @@ void Fog::setDensity(float density)
 	this->density = density;
 }
 
-void Fog::setColor(const glm::vec4& color)
+void Fog::setColor(const glm::vec3& color)
 {
 	this->color = color;
 }
 
-float Fog::getHeight()
+float Fog::getFar()
 {
-	return height;
+	return farDist;
+}
+
+float Fog::getNear()
+{
+	return nearDist;
 }
 
 float Fog::getDensity()
@@ -25,7 +35,7 @@ float Fog::getDensity()
 	return density;
 }
 
-glm::vec4 Fog::getColor()
+glm::vec3 Fog::getColor()
 {
 	return color;
 }

@@ -19,6 +19,8 @@
 #include "IL/ilut.h"
 #include "Texture.h"
 
+#pragma comment(linker, "/STACK:36777216")
+
 using namespace std;
 using namespace glm;
 
@@ -28,7 +30,7 @@ double timeSummary = 0;
 double speed = 0.4;
 POINT oldCursPos;
 POINT newCursPos;
-const float fovy = 40;
+const float fovy = 35;
 const int w = 800;
 const int h = 600;
 
@@ -106,24 +108,27 @@ int main()
 
 	// Messing with camera
 	camera.setPosition(vec3(5.0, 10.0, 5.0));
-	camera.setProjectionMatrix(radians(fovy), 1, w / h, 500.0);
+	camera.setProjectionMatrix(fovy, w/h, 1, 500.0);
 
 	//glClearColor(0.7, .7, .7, 1); // Pretty clear color
 	
 	// Fog
-	fog.setHeight(3.0);
-	fog.setDensity(0.01);
-	
+	fog.setColor(glm::vec4(1.0));
+	fog.setDensity(0.2);
+	fog.setFar(400.0);
+	fog.setNear(10.0);
+
 	// Scene initialization
 	scene.init("DATA/models.json");
 	scene.loadJSON("DATA/demo_scene2.json");
 	scene.setCamera(&camera);
 	scene.setLight(&light);
+	scene.initQtree(Boundary(glm::vec3(0, 0, 0), 600));
 
 	// Render manager initialization
 	//renderManager.setCamera(&camera);
 	//renderManager.setLight(&light);
-	//renderManager.setFog(&fog);
+	renderManager.setFog(&fog);
 	renderManager.init();
 	
 	// Start shader manager
@@ -183,7 +188,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 	if (!(width || height))	// If height or width is 0
 		return;
 	glViewport(0, 0, width, height);
-	camera.setProjectionMatrix(radians(fovy), width / height, 1.0f, 500.0f);
+	camera.setProjectionMatrix(fovy, width / height, 1.0f, 500.0f);
 	display();
 }
 

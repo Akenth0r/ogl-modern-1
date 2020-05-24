@@ -29,6 +29,7 @@ public:
 	void setUniform(const std::string& name, const glm::vec2& value);
 	void setUniform(const std::string& name, std::vector<glm::mat4>& value);
 	void setUniform(const std::string& name, float value);
+	void setUniform(const std::string& name, const glm::vec3& value);
 
 
 	// Get shader paths
