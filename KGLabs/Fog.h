@@ -23,4 +23,3 @@ private:
 	float density;
 	glm::vec3 color;
 };
-

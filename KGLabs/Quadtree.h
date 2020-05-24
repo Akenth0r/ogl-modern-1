@@ -19,26 +19,9 @@ public:
 	// Get points using VP matrix
 	std::vector<Point> queryRange(glm::mat4 VP);
 
-	// Get points from range
-	//std::vector<Point> queryRange(Boundary range);
-
 	// Set boundary
 	 void setBoundary(Boundary boundary);
 	
-	 int outNodes(int depth)
-	 {
-		 printf("depth: %i points.size() %i boundary(%f, %f, %f, %f) divided: %i boundary: (%f %f %f %f)\n", depth, points.size(), boundary.pos.x, boundary.pos.y, boundary.pos.z, boundary.halfSize, divided, boundary.pos.x, boundary.pos.y, boundary.pos.z, boundary.halfSize);
-		 if (divided)
-		 {
-			 depth = nw->outNodes(depth + 1);
-			 depth = ne->outNodes(depth + 1);
-			 depth = sw->outNodes(depth + 1);
-			 depth = se->outNodes(depth + 1);
-		 }
-
-
-		 return depth;
-	 }
 
 	// TODO: make destructor
 	~Quadtree();
@@ -56,4 +39,3 @@ public:
 	Quadtree* sw;					// South-west
 	Quadtree* se;					// South-east
 };
-

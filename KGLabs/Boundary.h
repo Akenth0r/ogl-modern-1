@@ -19,4 +19,3 @@ public:
 	glm::vec3 pos;
 	float halfSize;
 };
-

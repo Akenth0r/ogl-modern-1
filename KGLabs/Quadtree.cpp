@@ -15,7 +15,7 @@ bool Quadtree::insert(Point point)
 		return true;
 	}
 
-	// Otherwise subdivide it and redistribute the points
+	// Otherwise subdivide it
 	if (!divided)
 		subdivide();
 
@@ -123,20 +123,6 @@ void Quadtree::subdivide()
 		Boundary(glm::vec3(x + hs, y, z - hs), hs)
 	);
 
-	// Redistribute points
-	//std::vector<Point> newPoints;
-	//for (int i = 0; i < points.size(); i++)
-	//{
-	//	//points.push_back(point);
-	//	if (nw->insert(points[i])) continue;
-	//	if (ne->insert(points[i])) continue;
-	//	if (sw->insert(points[i])) continue;
-	//	if (se->insert(points[i])) continue;
-	//	//newPoints.push_back(points[i]);
-	//}
-	//points.clear();
-	//printf("%i\n", newPoints.size());
-	//points = newPoints; 
 		
 	divided = true;
 }

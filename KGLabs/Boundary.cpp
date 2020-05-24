@@ -40,10 +40,7 @@ bool Boundary::inFrustum(glm::mat4 VP)
 		{pos.x - halfSize, pos.y - halfSize, pos.z + halfSize, 1.0},
 		{pos.x - halfSize, pos.y - halfSize, pos.z - halfSize, 1.0}
 	};
-	/*for (int i = 0; i < 8; i++)
-	{
-		printf("source: (%f,%f,%f,%f)\n", boundary_verts[i].x, boundary_verts[i].y, boundary_verts[i].z, boundary_verts[i].w);
-	}*/
+
 	int left, up, down, right, front, back;
 	left = up = down = right = front = back = 0;
 	for (int i = 0; i < 8; i++)

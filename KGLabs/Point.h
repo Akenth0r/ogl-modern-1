@@ -14,4 +14,3 @@ public:
 	glm::vec3 dimension;
 	int index;  // Graphic objects array index
 };
-
