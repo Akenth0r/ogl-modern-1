@@ -13,6 +13,6 @@
   <li> Graphic objects and scenes loading using .json files </li>
   <li> Shader hot-reload </li> 
 </ul>
-
+`git clone`
 <h1> Demo </h1>
 <img src="https://github.com/Akenth0r/ogl-modern-1/blob/master/demo.gif"/>
