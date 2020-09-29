@@ -14,13 +14,13 @@
   <li> Shader hot-reload </li> 
 </ul>
 ```test``` <br>
-``` test ```
+```test```
 <ol>
-    <li> ``` git clone https://github.com/Akenth0r/test-task.git ``` </li>
-    <li> ``` cd test-task ``` </li>
-    <li> ``` npm install ``` </li>
-    <li> ``` composer install ``` </li>
-    <li> <i> optional: </i> you can reseed db with ``` php artisan migrate:fresh --seed ``` </li>
+    <li> ```git clone https://github.com/Akenth0r/test-task.git``` </li>
+    <li> ```cd test-task``` </li>
+    <li> ```npm install``` </li>
+    <li> ```composer install``` </li>
+    <li> <i> optional: </i> you can reseed db with ```php artisan migrate:fresh --seed``` </li>
 </ol>
 
 <h1> Demo </h1>
