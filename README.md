@@ -13,15 +13,15 @@
   <li> Graphic objects and scenes loading using .json files </li>
   <li> Shader hot-reload </li> 
 </ul>
-<code> test </code> <br>
-``` test ```
+<h2> Installation </h2>
 <ol>
-    <li> ``` git clone https://github.com/Akenth0r/test-task.git ``` </li>
-    <li> ``` cd test-task ``` </li>
-    <li> ``` npm install ``` </li>
-    <li> ``` composer install ``` </li>
-    <li> <i> optional: </i> you can reseed db with ``` php artisan migrate:fresh --seed ``` </li>
+    <li> <code> git clone https://github.com/Akenth0r/test-task.git </code> </li>
+    <li> <code> cd test-task </code> </li>
+    <li> <code> npm install </code> </li>
+    <li> <code> composer install </code> </li>
+    <li> <i> optional: </i> you can reseed db with <code> php artisan migrate:fresh --seed </code> </li>
 </ol>
+
 
 <h1> Demo </h1>
 <img src="https://github.com/Akenth0r/ogl-modern-1/blob/master/demo.gif"/>
