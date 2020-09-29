@@ -13,6 +13,7 @@
   <li> Graphic objects and scenes loading using .json files </li>
   <li> Shader hot-reload </li> 
 </ul>
+```test```
 ``` test ```
 <ol>
     <li> ``` git clone https://github.com/Akenth0r/test-task.git ``` </li>
