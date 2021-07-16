@@ -13,7 +13,7 @@
   <li> Graphic objects and scenes loading using .json files </li>
   <li> Shader hot-reload </li> 
   <li> LOD </li>
-  <li> <a href="https://en.wikipedia.org/wiki/Quadtree">QuadTree culling algorithm in 3d space</a> </li>
+  <li> <a href="https://www.tandfonline.com/doi/pdf/10.1080/19475683.2012.758171">QuadTree</a> culling algorithm in 3d space </li>
 </ul>
 
 <h1> Demo </h1>
