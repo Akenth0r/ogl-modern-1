@@ -17,4 +17,4 @@
 </ul>
 
 <h1> Demo </h1>
-<img src="https://github.com/Akenth0r/ogl-modern-1/blob/master/demo.gif"/>
+<img src="https://github.com/Akenth0r/ogl-modern-1/blob/master/demo11.gif"/>
